@@ -1,4 +1,4 @@
-package ch.bbw.mashup;
+package ch.bbw.mashup.transport;
 
 /**
  * @author  Mehmet Gül

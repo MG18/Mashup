@@ -1,4 +1,4 @@
-package ch.bbw.mashup;
+package ch.bbw.mashup.transport;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;

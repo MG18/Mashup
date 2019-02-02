@@ -1,4 +1,4 @@
-package ch.bbw.mashup;
+package ch.bbw.mashup.transport;
 
 import java.text.DateFormat;
 import java.text.ParseException;
@@ -8,6 +8,8 @@ import java.util.TimeZone;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
+
+import ch.bbw.mashup.logic.APICall;
 
 /**
  * @author  Mehmet Gül

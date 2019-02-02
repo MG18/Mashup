@@ -1,8 +1,10 @@
-package ch.bbw.mashup;
+package ch.bbw.mashup.weather;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+import ch.bbw.mashup.logic.APICall;
+import ch.bbw.mashup.transport.Koordinaten;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 

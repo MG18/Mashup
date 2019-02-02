@@ -3,6 +3,9 @@ package ch.bbw.mashup;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+import ch.bbw.mashup.transport.StationBoard;
+import ch.bbw.mashup.transport.TransportAPI;
+import ch.bbw.mashup.weather.WeatherAPI;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -122,7 +125,7 @@ public class Controller implements Initializable {
 				Alert alert = new Alert(AlertType.ERROR);
 				alert.setTitle("Fehlerdialog");
 				alert.setHeaderText("Es ist ein Fehler aufgetreten!");
-				alert.setContentText("Mindestens das Feld \"Von\" muss ausgefï¿½llt sein, oder eine gï¿½ltige Eingabe muss gemacht werden!");
+				alert.setContentText("Mindestens das Feld \"Von\" muss ausgefüllt sein, oder eine gültige Eingabe muss gemacht werden!");
 				alert.showAndWait();
 			}
 			
