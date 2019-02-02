@@ -18,7 +18,7 @@ public class WeatherAPI {
 	
 	public WeatherAPI() {
 		
-		this.APIKey 	= "533b245128772abd6348b8bdcdabed59";
+		this.apiKey 	= "533b245128772abd6348b8bdcdabed59";
 		this.weatherAPI = new APICall();
 		
 	}
@@ -32,7 +32,7 @@ public class WeatherAPI {
 		
 		for (Koordinaten coordinate : coordinates) {
 			
-			JSONObject mainJSONObject		= new JSONObject(weatherAPI.getResponse("http://api.openweathermap.org/data/2.5/weather?lat=" + coordinate.getxKoordinate() + "&lon=" + coordinate.getyKoordinate() +"&APPID="+ APIKey));
+			JSONObject mainJSONObject		= new JSONObject(weatherAPI.getResponse("http://api.openweathermap.org/data/2.5/weather?lat=" + coordinate.getxKoordinate() + "&lon=" + coordinate.getyKoordinate() +"&APPID="+ apiKey));
 			JSONArray  jsonWeather    		= mainJSONObject.getJSONArray("weather");
 			JSONObject jsonWeatherMain      = mainJSONObject.getJSONObject("main");
 			
